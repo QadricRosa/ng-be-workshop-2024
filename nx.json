@@ -16,6 +16,7 @@
   },
   "targetDefaults": {
     "deploy": {
+      "cache": true,
       "dependsOn": ["build"],
       "inputs": [
         "production",
