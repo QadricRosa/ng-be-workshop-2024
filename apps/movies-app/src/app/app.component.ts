@@ -9,6 +9,7 @@ import { AppShellComponent } from './app-shell/app-shell.component';
   selector: 'ens-root',
   template: `
     <app-shell>
+      <h1>A title</h1>
       <router-outlet />
     </app-shell>
   `,

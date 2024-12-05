@@ -30,6 +30,7 @@
       }
     },
     "build": {
+      "inputs": [{ "env": "MY_SECRET"}],
       "defaultConfiguration": "production",
       "configurations": {
         "production": {
