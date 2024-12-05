@@ -104,7 +104,8 @@
         "staticFilePath": "dist/apps/movies-app/browser"
       }
     },
-    "surge": {
+    "deploy": {
+      "inputs": [{"externalDependencies": ["nx", "surge"]}],
       "executor": "nx:run-commands",
       "dependsOn": ["build"],
       "outputs": [],
